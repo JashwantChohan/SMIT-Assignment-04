@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    height: 70vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* flex-direction: column; */
+    background-color: rgb(242, 241, 241);
+    border-radius: 10px;
+}
+
+.box {
+    border: 1px solid gray;
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+
+#box1{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
+#box2{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+#box3{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+#box4{
+    background-color: rgb(251, 251, 85);
+    color: black;
+    cursor: pointer;
+
+}
+#box5{
+    background-color: purple;
+    cursor: pointer;
+    color: white;
+}
+#box6{
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+
+}
